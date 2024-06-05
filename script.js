@@ -131,8 +131,10 @@ let search_img = () => {
         }
     }
     if (blockChildren.length > 0) {
-        document.querySelector('.no-item').style.display = 'none'
+        document.querySelector('.no-item').style.display = 'none';
+        document.querySelector('.footer').classList.remove('fixed')
     } else {
+        document.querySelector('.footer').classList.add('fixed')
         document.querySelector('.no-item').style.display = 'block'
 
 
