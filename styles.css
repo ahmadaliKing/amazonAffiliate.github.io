@@ -46,7 +46,7 @@
       gap: 10px;
       position: relative;
       z-index: 1000;
-      transition:  position 0.5s ease-in-out;
+      transition: opacity 0.5s ease-in-out, position 0.5s ease-in-out;
       width: 100vw;
   }
 
@@ -163,6 +163,7 @@
       gap: 5px;
       background-color: white;
       margin-bottom: 10px;
+      min-height: 74vh;
 
   }
 
