@@ -56,7 +56,7 @@
   }
 
   .header.fade-out {
-      opacity: 0;
+      opacity: 1;
   }
 
   .header .rounded-image {
