@@ -6,12 +6,11 @@
 
   html {
       overflow-x: hidden;
-   background-color:grey;
   }
 
   div.no-item {
       position: fixed;
-      top: 50%;
+      top: 51%;
       left: 50%;
       transform: translate(-50%, -50%);
       display: none;
